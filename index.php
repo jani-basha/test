@@ -11,7 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+            class index{
+                public function add($x,$y){
+                    echo "Total is:".($x+$y);
+                }
+            }            
+            $object = new index();            
+            $object->add(2,3);
         ?>
     </body>
 </html>
