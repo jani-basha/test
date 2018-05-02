@@ -18,6 +18,13 @@ and open the template in the editor.
             }            
             $object = new index();            
             $object->add(2,3);
+        class test{
+            public function subtract($x,$y){
+                echo 'Value is:'.($x-$y);
+            }
+        }
+        $object = new test();
+        $object->subtract(20,15);
         ?>
     </body>
 </html>
